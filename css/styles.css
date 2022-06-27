@@ -195,6 +195,10 @@ button:focus,
   cursor: pointer;
   /*reduces opacity of button to 80%*/
   opacity: 0.75;
+.stars {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @keyframes star-rotate {

@@ -59,6 +59,28 @@ a:active {
   color: #d144db;
 }
 
+.button__secondary {
+  border: none;
+  font-family: inherit;
+  background-color: #efe988;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.button {
+  border: none;
+  font-family: inherit;
+  background-color: #788085;
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
 button {
   border: none;
   font-family: inherit;
@@ -70,14 +92,19 @@ button {
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 
-button:hover, button:focus {
+.button__secondary :hover,
+.button :hover,
+button :hover,
+.button__secondary :focus,
+.button :focus,
+button :focus {
   cursor: pointer;
   opacity: 0.7;
 }
 
-.button__secondary {
-  background-color: #788085;
-  color: #000000;
+.button,
+button {
+  display: inline-block;
 }
 
 .navigation-list {

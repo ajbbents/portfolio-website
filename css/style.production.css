@@ -214,6 +214,10 @@ footer {
   width: 33%;
 }
 
+.stars {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @-webkit-keyframes star-rotate {

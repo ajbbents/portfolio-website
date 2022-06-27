@@ -116,7 +116,7 @@ button {
   margin-left: 15px;
 }
 
-.navigation-list__item--active {
+.navigation-list li .navigation-list__item--active {
   text-decoration: underline;
 }
 

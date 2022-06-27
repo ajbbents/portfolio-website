@@ -41,14 +41,15 @@ h3 {
 a {
   color: var(--primary-color);
   cursor: pointer;
-  transition: font-size .3s;
+  transition: font-size 0.3s;
 }
 
 a:visited {
   color: var(--text-color);
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   font-size: var(--large-text);
 }

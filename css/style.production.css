@@ -85,7 +85,7 @@ button {
   border: none;
   font-family: inherit;
   background-color: #788085;
-  color: #000000;
+  color: #fff;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -113,7 +113,7 @@ button {
 
 .navigation-list li {
   display: inline-block;
-  margin-left: 22px;
+  margin-left: 15px;
 }
 
 .navigation-list__item--active {
@@ -126,7 +126,7 @@ button {
 
 footer {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2;
 }
 
@@ -196,7 +196,7 @@ footer {
 }
 
 .grid__item {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .grid__item:last-child {
@@ -419,6 +419,6 @@ button:focus,
     grid-row: auto / auto;
   }
   h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
 }

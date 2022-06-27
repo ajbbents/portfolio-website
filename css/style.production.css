@@ -212,52 +212,6 @@ footer {
   width: 33%;
 }
 
-.button {
-  /*overwrites browser defaults and resets the border*/
-  border: none;
-  display: inline-block;
-  /*pulls font from outer container*/
-  font-family: inherit;
-  /*styles ye olde button*/
-  background-color: #d144db;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  /*width of border, type, color*/
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
-  transition: 0.2s opacity;
-}
-
-button {
-  /*overwrites browser defaults and resets the border*/
-  border: none;
-  display: inline-block;
-  /*pulls font from outer container*/
-  font-family: inherit;
-  /*styles ye olde button*/
-  background-color: #d144db;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  /*width of border, type, color*/
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
-  transition: 0.2s opacity;
-}
-
-button:hover,
-button:focus,
-.button:hover,
-.buton:focus {
-  /*lets mouse appear as a hand*/
-  cursor: pointer;
-  /*reduces opacity of button to 80%*/
-  opacity: 0.75;
 }
 
 @-webkit-keyframes star-rotate {

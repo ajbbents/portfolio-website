@@ -296,4 +296,8 @@ button:focus,
   h1 {
     font-size: var(--large-text);
   }
+
+  .page-header__item:first-child {
+    transform: scale(0.7);
+  }
 }

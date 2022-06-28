@@ -395,4 +395,10 @@ footer {
   h1 {
     font-size: 20px;
   }
+
+  .page-header__item:first-child {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+  }
 }

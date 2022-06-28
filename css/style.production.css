@@ -56,13 +56,13 @@ a:focus {
 }
 
 a:active {
-  color: #d144db;
+  color: #efe988;
 }
 
 .button__secondary {
   border: none;
   font-family: inherit;
-  background-color: #efe988;
+  background-color: #788085;
   color: #fff;
   text-decoration: none;
   padding: 10px;
@@ -74,7 +74,7 @@ a:active {
   border: none;
   font-family: inherit;
   background-color: #788085;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;

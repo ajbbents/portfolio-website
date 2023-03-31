@@ -1,85 +1,98 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alison Bents</title>
   <link rel="shortcut icon" href="./img/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.production.css">
 </head>
+
 <body>
-<div>
+  <div>
 
-  <header class="page-header">
-    <img src="img/logo1.svg" class="page-header__item" alt="Alison Bents logo simple text of name">
-    <nav class="main-navigation page-header__item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
-        </li>
-        <li role="presentation">
-          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
-        </li>
-        <li role="presentation">
-          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
-        </li>
-        <li role="presentation">
-          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <header class="page-header">
+      <img src="img/logo1.svg" class="page-header__item" alt="Alison Bents logo simple text of name">
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <section>
-    <h1>Work</h1>
-    <div class="grid">
-      <!-- grid items will live here -->
-      <div class="grid__item">
-        <h2>Mobile web app</h2>
-        <p>For this project, I was responsible for the frontend. It's written in React.js. Additionally, I've created the HTML and CSS templates.</p>
-        <a href="#">See this project on GitHub</a>
+    <section>
+      <h1>Work</h1>
+      <div class="grid">
+        <!-- grid items will live here -->
+        <div class="grid__item">
+          <h2>Progressive Web App</h2>
+          <p>This is a serverless, progressive web application (PWA) with React using a test-driven development (TDD)
+            technique. <br>
+            The application uses the Google Calendar API and Serverless functions (AWS lambda) for the authorization
+            server <br>
+            instead of using a traditional server to fetch upcoming full-stack meetup events.
+            This is the <a href="https://ajbbents.github.io/meet/">live demo</a>.<br>
+          <h4>Technologies used:</h4>
+          <p> React, AWS Lambda, serverless, Jest, Cucumber-jest, Puppeteer, Atatus, Recharts</p>
+          </p>
+          <a href="https://github.com/ajbbents/meet">See this project on GitHub</a>
+        </div>
+        <div class="grid__item">
+          <h2>Wedding welcome</h2>
+          <p>Created a mobile app to orient guests to a destination wedding.</p>
+          <a href="#">See this project on GitHub</a>
+        </div>
+        <div class="grid__item">
+          <h2>Mapping project</h2>
+          <p>For this project, I was responsible for the backend. It's written in Python.</p>
+          <a href="#">See this project on GitHub</a>
+        </div>
+        <div class="grid__item">
+          <h2>Most amazing thing you've ever seen</h2>
+          <p>For this project, I was responsible for the frontend. I created the HTML and CSS templates for future
+            projects.</p>
+          <a href="#">See this project on GitHub</a>
+        </div>
+        <div class="grid__item">
+          <h2>Photography sales page</h2>
+          <p>For this project, I was responsible for the e-commerce integration.</p>
+          <a href="#">See this project on GitHub</a>
+        </div>
+        <div class="grid__item">
+          <h2>Really the best one here</h2>
+          <p>For this project, I was responsible for the frontend. Don't miss that link below. You'll be sorry.</p>
+          <a href="#">See this project on GitHub</a>
+        </div>
       </div>
-      <div class="grid__item">
-        <h2>Wedding welcome</h2>
-        <p>Created a mobile app to orient guests to a destination wedding.</p>
-        <a href="#">See this project on GitHub</a>
-      </div>
-      <div class="grid__item">
-        <h2>Mapping project</h2>
-        <p>For this project, I was responsible for the backend. It's written in Python.</p>
-        <a href="#">See this project on GitHub</a>
-      </div>
-      <div class="grid__item">
-        <h2>Most amazing thing you've ever seen</h2>
-        <p>For this project, I was responsible for the frontend. I created the HTML and CSS templates for future projects.</p>
-        <a href="#">See this project on GitHub</a>
-      </div>
-      <div class="grid__item">
-        <h2>Photography sales page</h2>
-        <p>For this project, I was responsible for the e-commerce integration.</p>
-        <a href="#">See this project on GitHub</a>
-      </div>
-      <div class="grid__item">
-        <h2>Really the best one here</h2>
-        <p>For this project, I was responsible for the frontend. Don't miss that link below. You'll be sorry.</p>
-        <a href="#">See this project on GitHub</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="page-footer">
-    <p>Find me here</p>
-    <div class="socia-media">
-      <a href="https://github.com/ajbbents"><img src="img/github_icon.svg" alt="github"></a>
-      <a href="https://twitter.com/alisonbents"><img src="img/twitter_icon.svg" alt="twitter"></a>
-      <a href="https://www.facebook.com/alisonbents"><img src="img/fb_icon.svg" alt="facebook"></a>
-      <a href="https://www.instagram.com/alisonbents/"><img src="img/ig_icon.svg" alt="instagram"></a>
-    </div>
-  </footer>
+    <footer class="page-footer">
+      <p>Find me here</p>
+      <div class="socia-media">
+        <a href="https://github.com/ajbbents"><img src="img/github_icon.svg" alt="github"></a>
+        <a href="https://twitter.com/alisonbents"><img src="img/twitter_icon.svg" alt="twitter"></a>
+        <a href="https://www.facebook.com/alisonbents"><img src="img/fb_icon.svg" alt="facebook"></a>
+        <a href="https://www.instagram.com/alisonbents/"><img src="img/ig_icon.svg" alt="instagram"></a>
+      </div>
+    </footer>
 
-</div>
-<script src="js/tota11y.min.js"></script>
+  </div>
+  <script src="js/tota11y.min.js"></script>
 </body>
+
 </html>

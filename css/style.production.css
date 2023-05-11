@@ -204,7 +204,7 @@ footer {
 }
 
 .responsive {
-  max-width: 500px;
+  max-width: auto;
   justify-content: center;
   height: auto;
 }

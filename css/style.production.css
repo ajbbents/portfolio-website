@@ -215,7 +215,7 @@ footer {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -226,6 +226,14 @@ footer {
 /* Add some padding inside the card container */
 .card-text {
   padding: 2px 16px;
+}
+
+.work-img {
+  border-radius: 12px;
+}
+
+.card-title {
+  text-align: center;
 }
 
 @supports (display: grid) {

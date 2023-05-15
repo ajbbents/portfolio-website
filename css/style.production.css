@@ -188,11 +188,11 @@ footer {
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 25px 1fr 25px 1fr;
+  -ms-grid-columns: 1fr 35px 1fr 35px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 25px;
-  padding: 30px;
-  margin: 30px;
+  grid-gap: 35px;
+  padding: 40px;
+  margin: 40px;
 }
 
 .grid__item {
@@ -219,6 +219,7 @@ footer {
   -o-transition: 0.3s;
   transition: 0.3s;
   border-radius: 12px;
+  background-color: #fff;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -244,9 +245,9 @@ footer {
   .grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 25px 1fr 25px 1fr;
+    -ms-grid-columns: 1fr 35px 1fr 35px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 25px;
+    grid-gap: 35px;
     margin: 0;
   }
 
@@ -267,7 +268,7 @@ footer {
 
 @media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
-    -ms-grid-columns: 1fr 20px 1fr;
+    -ms-grid-columns: 1fr 30px 1fr;
     grid-template-columns: 1fr 1fr;
   }
 }

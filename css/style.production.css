@@ -202,6 +202,16 @@ footer {
   width: 33%;
 }
 
+.casestudy-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 45px 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 45px;
+  padding: 50px;
+  margin: 50px;
+}
+
 .responsive {
   max-width: 400px;
   -webkit-box-align: center;
@@ -245,6 +255,24 @@ footer {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 600px;
   flex: 1 1 600px;
+}
+
+/* Case study - card styling */
+.casestudy-card {
+  /* Add shadows to create the "card" effect */
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+/* On mouse-over, add a deeper shadow */
+.casestudy-card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 @supports (display: grid) {

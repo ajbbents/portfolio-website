@@ -83,8 +83,8 @@ a:active {
 button {
   border: none;
   font-family: inherit;
-  background-color: #788085;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -255,6 +255,7 @@ footer {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 600px;
   flex: 1 1 600px;
+  padding: 5px;
 }
 
 /* Case study - card styling */
@@ -273,6 +274,10 @@ footer {
 .casestudy-card:hover {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cs-img {
+  border-radius: 12px;
 }
 
 @supports (display: grid) {
